@@ -33,7 +33,7 @@
           <div class="row">
             <div class="col-sm-8 text-sm">
               <div class="site-info">
-                <a href="tel:+56957508150"
+                <a href="https://api.whatsapp.com/send?phone=56957508150"
                   ><span class="mai-call text-primary"></span> +56 9 5750
                   8150</a
                 >
@@ -46,9 +46,7 @@
             </div>
             <div class="col-sm-4 text-right text-sm">
               <div class="social-mini-button">
-                <a href="#"><span class="mai-logo-facebook-f"></span></a>
-                <a href="#"><span class="mai-logo-twitter"></span></a>
-                <a href="#"><span class="mai-logo-dribbble"></span></a>
+                <a href="#"><span class="mai-logo-whatsapp"></span></a>
                 <a href="https://www.instagram.com/centromedicocemicah/"
                   ><span class="mai-logo-instagram"></span
                 ></a>
@@ -140,7 +138,7 @@
       <div class="container">
         <h1 class="text-center wow fadeInUp">Contacta con nosotros</h1>
 
-        <form class="main-form">
+        <form class="main-form" action="https://formspree.io/f/mgebrbol" method="POST">
           <div class="row mt-5">
             <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
               <input
@@ -151,7 +149,9 @@
             </div>
             <div class="col-12 col-sm-6 py-2 wow fadeInRight">
               <input
-                type="text"
+                name="email"
+                id="email"
+                type="email"
                 class="form-control"
                 placeholder="Correo electronico"
               />
@@ -166,6 +166,8 @@
             ></div>
             <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
               <input
+                name="phone"
+                id="phone"
                 type="text"
                 class="form-control"
                 placeholder="Numero de telefono"
@@ -207,15 +209,10 @@
           </div>
           <div class="col-sm-6 col-lg-4 py-3">
             <h5>Contact</h5>
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=-23.6632863,-70.40133411"
-              ><p class="footer-link mt-2">
-                Avenida General Bernardo O'Higgins 1338 Oficina 802,
-                Antofagasta, Chile.
-              </p></a
-            >
-            <a href="#" class="footer-link">+56 9 5750 8150</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=-23.6632863,-70.40133411"><p class="footer-link mt-2">Avenida General Bernardo O'Higgins 1338 Oficina 802, Antofagasta, Chile.</p></a>
+            <a href="#" class="footer-link">+56 9 5750 8150</a><br>
             <a href="#" class="footer-link">cemicah.2020@outlook.com</a>
+  
 
             <h5 class="mt-3">Social Media</h5>
             <div class="footer-sosmed mt-3">
