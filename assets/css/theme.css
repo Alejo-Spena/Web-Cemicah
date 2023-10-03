@@ -7,7 +7,7 @@
   Version: 1.0
  */
 
-:root {
+ :root {
   --primary: #00D9A5;
   --accent: #FF3D85;
   --secondary: #4E5AFE;
@@ -1313,7 +1313,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card-doctor .header::before {
-  content: '';
+  content: 'Mas informacion';
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -1322,6 +1323,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: rgba(52, 53, 49, 0.36);
   opacity: 0;
   transition: opacity .2s linear;
+  color: white;
 }
 
 .card-doctor:hover .header::before {
